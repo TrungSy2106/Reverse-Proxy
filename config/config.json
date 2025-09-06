@@ -1,0 +1,5 @@
+{
+    "listen_port": 8080,
+    "target_host": "127.0.0.1",
+    "target_port": 5501
+}

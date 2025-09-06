@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Proxy",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/proxy.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "externalConsole": true,
+            "preLaunchTask": "Build Proxy"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Proxy",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o", "proxy.exe",
+                "src/main.c",
+                "src/http/http_request.c",
+                "src/http/http_response.c",
+                "src/http/http_server.c",
+                "src/proxy/proxy_handler.c",
+                "-lws2_32"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
