@@ -1,7 +1,0 @@
-# ninja log v7
-1	548	7787731098308166	CMakeFiles/proxy.dir/src/http/request_handler.c.obj	a4a69480ac140d6e
-4	570	7787731098338241	CMakeFiles/proxy.dir/src/http/response_handler.c.obj	6b06e48c4c2ba28a
-7	578	7787731098370110	CMakeFiles/proxy.dir/src/http/server.c.obj	34e9edd011e7f16f
-13	606	7787731098428907	CMakeFiles/proxy.dir/src/proxy/proxy_handler.c.obj	b06d5e9ece70052e
-10	607	7787731098401939	CMakeFiles/proxy.dir/src/main.c.obj	bef1d6970f85a003
-607	685	7787731104364223	proxy.exe	ff73b9de826ee6e8
