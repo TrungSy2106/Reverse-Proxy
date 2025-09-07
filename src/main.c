@@ -7,7 +7,7 @@ int main() {
 
     // 🔹 Backend server chạy ở localhost:5000 (Live Server của bạn)
     const char *backend_host = "127.0.0.1";
-    int backend_port = 5500;
+    int backend_port = 5501;
 
     printf("Starting reverse proxy...\n");
     printf("Frontend: http://127.0.0.1:%d/\n", listen_port);
